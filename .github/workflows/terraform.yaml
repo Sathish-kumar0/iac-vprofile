@@ -33,7 +33,7 @@ jobs:
      - name: checkout source code
        uses: actions/checkout@v4
      - name: Setup terraform with the specified versions on the runner
-       uses: hashicrop/setup-terraform@v2
+       uses: hashicorp/setup-terraform@v2
     #  with:
      #   terraform_verison: 1.6.3
      - name: terraform init
